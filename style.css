@@ -1,0 +1,93 @@
+
+ .menu {
+     background-color: #333;
+     color: #fff;
+     display: flex;
+     justify-content: space-between;
+     padding: 10px;
+ }
+
+ .menu a {
+     color: #fff;
+     text-decoration: none;
+     padding: 10px;
+ }
+
+ .menu a:hover {
+     background-color: #555;
+ }
+
+ /* Estilos para os blocos de imagem, input e botão */
+ .container {
+     margin-top: 50px;
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     grid-gap: 20px;
+ }
+
+ .bloco {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     width: 50%;
+     height: 100%;
+     margin: 50px auto;
+     padding: 20px;
+ }
+
+ .bloco img {
+     margin-top: 80%;
+     max-width: 100%;
+     height: auto;
+     margin-bottom: 10px;
+ }
+
+ .bloco input {
+     padding: 10px;
+     margin-bottom: 10px;
+     border-radius: 5px;
+     border: 1px solid #ccc;
+     font-size: 16px;
+     width: 100%;
+     justify-content: center;
+     margin-top: 20px;
+ }
+
+ .bloco button {
+     background-color: #333;
+     color: #fff;
+     padding: 10px;
+     border: none;
+     border-radius: 5px;
+     font-size: 16px;
+     cursor: pointer;
+ }
+
+ .bloco button:hover {
+     background-color: #555;
+ }
+
+ /* Estilos de posicionamento dos itens */
+ .item1 {
+     grid-row: 1;
+     grid-column: 1;
+ }
+
+ .item2 {
+     grid-row: 1;
+     grid-column: 2;
+ }
+
+ .item3 {
+     grid-row: 1;
+     grid-column: 3;
+ }
+
+ /* Estilos para o rodapé */
+ .rodape {
+     background-color: #ccc;
+     color: #333;
+     padding: 10px;
+     text-align: center;
+ }
