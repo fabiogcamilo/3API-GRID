@@ -19,27 +19,29 @@
 
  /* Estilos para os blocos de imagem, input e botão */
  .container {
-     margin-top: 50px;
-     display: grid;
-     grid-template-columns: repeat(3, 1fr);
-     grid-gap: 20px;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
  }
 
  .bloco {
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     align-items: center;
-     width: 50%;
-     height: 100%;
-     margin: 50px auto;
-     padding: 20px;
- }
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    margin: 20px auto;
+    padding: 20px;
+}
+
 
  .bloco img {
      margin-top: 80%;
      max-width: 100%;
-     height: auto;
+     width: 400px;
+     height: 200px;
      margin-bottom: 10px;
  }
 

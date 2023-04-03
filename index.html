@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="js.js"></script>
 </head>
 <body>
     <div class="menu">
@@ -15,10 +16,10 @@
     </div>
       <div class="container">
         <div class="bloco item1">
-          <img src="imagem1.jpg" alt="Imagem 1">
-          <input type="text" placeholder="Digite algo...">
-          <button>Enviar</button>
-        </div>
+          <img id="imagemPokemon" src="" alt="Imagem do Pokemon" hidden>
+          <input type="text" id="nomePokemon" placeholder="Digite o nome ou a ID do Pokemon">
+          <button onclick="buscarPokemon()">Buscar Pokemon</button>
+          </div>
         <div class="bloco item2">
           <img src="imagem2.jpg" alt="Imagem 2">
           <input type="text" placeholder="Digite algo...">
